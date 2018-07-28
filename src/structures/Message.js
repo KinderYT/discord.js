@@ -16,6 +16,8 @@ const { createMessage } = require('./shared');
  * Represents a message on Discord.
  * @extends {Base}
  */
+
+// Message contructor endpoints below:
 class Message extends Base {
   constructor(client, data, channel) {
     super(client);
